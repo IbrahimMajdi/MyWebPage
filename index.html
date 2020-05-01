@@ -8,10 +8,16 @@
         <link rel="stylesheet" href="Style.css">
         <link rel="import" href="images/">
     </head>
-    <body>
+
+    <body onload="nameFunction()">
+
+        <header>
        <h1>
         My Company
        </h1>
+
+       <h3 id="name"></h3>
+       
         <ul>
             <li><a href=""></a>About</li>
             <li><a href=""></a>Product</li>
@@ -19,6 +25,8 @@
             <li><a href=""></a>Blog</li>
         </ul>
 
+        </header>
+        
         <article>
             <section>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
@@ -46,9 +54,10 @@
     <footer>
         <p>(c) 2020 </p>
         <ul>
-            <li><a href=""><img src="images/facebook.png" alt=""></a></li>
-            <li><a href=""><img src="images/twitter.png" alt=""></a></li>
-            <li><a href=""><img src="images/inst.webp" alt=""></a></li>
+            <a href=""><img src="images/facebook.png" alt=""></a>
+            <a href=""><img src="images/twitter.png" alt=""></a>
+            <a href=""><img src="images/inst.webp" alt=""></a>
         </ul>
     </footer>
+    <script src="content-js.js"> </script>
 </html>
