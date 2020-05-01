@@ -34,15 +34,73 @@ ul li{
     padding: 16px;
     text-decoration: none;
 }
-
-
-
-
+section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(0, 0, 0)5, 15, 15);
+    text-align:left;
+    padding : 20px;
 }
 
+.top  {
+    position: absolute;
+    left:1000px;
+    top: 200px;
+    width: 10%;
+}
+.down  {
+    position: absolute;
+    left:1000px;
+    top: 400px;
+    width: 10%;
 
-footer p {}
+}
+.lt {
+    position: absolute;
+    left:20px;
+    top: 200px;
+}
+.ld {
+    position: absolute;
+    left:20px;
+    top: 400px;
+}
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    margin: 5px;
+  }
+.fa-facebook {
+    background: rgb(0, 0, 0);
+    padding-left: 0;
+    color: white;
+    position: relative;
+    left: 1300px;
+  }
+  
+.fa-twitter {
+    background: rgb(0, 0, 0);
+    padding-left: 0;
+    color: white;
+    position: relative;
+    left: 1150px;
+  }
+.fa-instagram {
+    background: rgb(0, 0, 0);
+    padding-left: 0;
+    color: white;
+    position: relative;
+    left: 1000px;
+  }
 
-footer ul {}
-
+footer {
+    position: fixed;
+    left: 0;
+    top: 550px;
+    bottom: 0;
+    width: 100%;
+    background-color:#0011ff;
+    color: white;
+    text-align: left;
+    text-indent: 20px;
+ }
 
